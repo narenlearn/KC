@@ -14,7 +14,9 @@ h5{font-size:20px;line-height:26px;font-family:Rubik,system-ui,BlinkMacSystemFon
 	   .whatapp1 {color:#fff;}
 	   
 	   .whatapp1:hover{color:#fff;background-color:#023555;}
-	   
+	   .fs{
+		   font-size:14px;
+	   }
 	   
 	   .fa, .far, .fas {
     font-family: "Font Awesome 5 Free";
