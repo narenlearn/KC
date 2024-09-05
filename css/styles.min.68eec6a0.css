@@ -65,3 +65,30 @@ h5{font-size:20px;line-height:26px;font-family:Rubik,system-ui,BlinkMacSystemFon
 .footer-social-icon li a:hover{color:#f0500f}
 .list-unstyled{padding-left:0;list-style:none}
 .mb-4{margin-top:1em !important; margin-left:1em;}
+.d-none1{
+		display:block !important;
+		  
+	  }
+	  
+	  .mlf1{
+	 margin-left: 20em;
+ }
+
+ @media screen and (min-width : 200px) and (max-width : 576px) {
+.d-none1{
+		display:none !important;
+		  
+	  }
+	   .mlf1{
+	 margin-left: 2em;
+ }
+ .w-150{width:200px}
+ }
+ 
+  @media screen and (min-width : 577px) and (max-width : 992px) {
+
+	   .mlf1{
+	 margin-left: 1em;
+ }
+ .w-150{width:250px}
+ }
