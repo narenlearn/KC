@@ -75,7 +75,20 @@ h5{font-size:20px;line-height:26px;font-family:Rubik,system-ui,BlinkMacSystemFon
 	 margin-left: 20em;
  }
 
- @media screen and (min-width : 200px) and (max-width : 576px) {
+@media screen and (min-width : 200px) and (max-width : 400px) {
+	
+	.d-none1{
+		display:none !important;
+		  
+	  }
+	   .mlf1{
+	 margin-left: 1em;
+ }
+ .w-150{width:175px}
+	
+}
+
+ @media screen and (min-width : 400px) and (max-width : 576px) {
 .d-none1{
 		display:none !important;
 		  
