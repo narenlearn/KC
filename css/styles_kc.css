@@ -489,3 +489,13 @@ margin-top:-134em;
 margin-top:-128em;
 }
 }
+@media screen and (height: 873px) {
+.bgw{
+margin-top:-136em;
+}
+}
+@media screen and (height: 626px) {
+.bgw{
+margin-top:-124em;
+}
+}
