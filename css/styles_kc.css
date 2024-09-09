@@ -499,3 +499,13 @@ margin-top:-136em;
 margin-top:-124em;
 }
 }
+@media screen and (height: 625px) {
+.bgw{
+margin-top:-124em;
+}
+}
+@media screen and (height: 16.56cm) {
+.bgw{
+margin-top:-124em;
+}
+}
