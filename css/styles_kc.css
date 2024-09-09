@@ -87,12 +87,18 @@ flex-direction: column;
 		display:none !important;
 		  
 	  }
+	  .d-none3{
+		display:block !important;
+		  
+	  }
 	  .mlf1{
 		  margin:auto;
 	 margin-left: 20em;
 
  }
- 
+ .mmt1{
+	 margin-top:3em; z-index:9999;
+ }
  
  
 
@@ -124,18 +130,26 @@ flex-direction: column;
 		display:block !important;
 		  
 	  }
+	  
 	   .mlf1{
 		   margin:auto;
-	 margin-left: 2em;
+	 margin-left: 10em;
+	 margin-top:-2.4em;
  }
- .w-150{width:175px}
+ .w-150{width:125px}
  .mto1{margin-top:-10em; }
  .white{
-	 font-size: 13px;
+	 font-size: 12px;
  }
  .eyesberg-nav-logo{
-	 
-       justify-content: center;
+	display:inline-block; 
+ }
+
+ .mt1{
+	 margin-top:1em;
+ }
+ .mmt1{
+	 margin-top:0.2em;
  }
 }
 
@@ -150,10 +164,37 @@ flex-direction: column;
 	  }
 	   .mlf1{
 		   margin:auto;
-	 margin-left: 2em;
+	 margin-left: 11em;
+	 margin-top:-2.7em;
  }
- .w-150{width:200px}
+ .w-150{width:150px}
+ .eyesberg-nav-logo{
+	display:inline-block; 
  }
+
+ .mt1{
+	 margin-top:1em;
+ }
+ .mmt1{
+	 margin-top:0.5em;
+ }
+ }
+ 
+ @media screen and (min-width : 577px) and (max-width : 768px) {
+ 
+ .d-none3{
+		display:none !important;  
+	  }
+	  .navbar-toggler{display:block !important;}
+.d-none1{
+		display:none !important;
+		  
+	  }	
+
+	
+	  }
+ 
+ 
  
   @media screen and (min-width : 577px) and (max-width : 992px) {
 
