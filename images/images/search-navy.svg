@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icons/Drop-pin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Full-Mockup-Desktop" transform="translate(-444.000000, -3377.000000)" fill-rule="nonzero" stroke="#081C4A" stroke-width="1.8">
+            <g id="Group-2" transform="translate(369.000000, 3039.000000)">
+                <g id="Icons-/-buttons-/-search-/-navy" transform="translate(84.000000, 347.000000) rotate(-360.000000) translate(-84.000000, -347.000000) translate(75.000000, 338.000000)">
+                    <circle id="Oval" transform="translate(6.882353, 6.882353) scale(-1, 1) translate(-6.882353, -6.882353) " cx="6.88235294" cy="6.88235294" r="5.82352941"></circle>
+                    <path d="M11.1176471,11.1176471 L16.4117647,16.4117647" id="Line-2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
