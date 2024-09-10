@@ -112,9 +112,8 @@ p a:hover{
  .mmt1{
 	 margin-top:3em; z-index:9999;
  }
- body{height: 100%;}
- .footer{top: 100%; bottom: 0; margin-top: 20px;
- position:relative; clear: both;}
+
+ 
  .bgw1{
 	 background-color:#fff;
 	 width:80%;
