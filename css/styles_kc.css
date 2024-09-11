@@ -110,7 +110,7 @@ p a:hover{
 	  }
 	  .d-none3{
 		display:block !important;
-		  
+  		  
 	  }
 	  .mlf1{
 		  margin:auto;
@@ -530,7 +530,7 @@ margin-top:-128em;
 margin-top:-136em;
 }
 }
-@media screen and (height: 626px) {
+@media screen and (min-height: 620px), screen and (max-height: 630px)  {
 .bgw{
 margin-top:-124em;
 }
