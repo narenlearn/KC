@@ -5,8 +5,8 @@
 </head>
 <body>
     <div class="form-container">
-        <form name="frmContact" id="" frmContact"" method="post"
-            action="" enctype="multipart/form-data"
+        <form name="frmContact" id="frmContact" method="post"
+            action="send-contact-mail.php" enctype="multipart/form-data"
             onsubmit="return validateContactForm()">
 
             <div class="input-row">
@@ -25,6 +25,14 @@
                     class="info"></span><br /> <input type="text"
                     class="input-field" name="subject" id="subject" />
             </div>
+			
+			<div class="input-row">
+                <label>Mobile Number</label> <span id="mobile-info"
+                    class="info"></span><br /> <input type="text" maxlength="10"
+                    class="input-field" name="mobile" id="mobile" onkeypress="return isNumber(event)"/>
+            </div>
+			
+			
             <div class="input-row">
                 <label>Message</label> <span id="userMessage-info"
                     class="info"></span><br />
@@ -33,7 +41,7 @@
             </div>
             <div>
                 <input type="submit" name="send" class="btn-submit"
-                    value="Send" />
+                    value="submit" />
 
                 <div id="statusMessage"> 
                         <?php
@@ -84,12 +92,44 @@
                 valid = false;
             }
             if (content == "") {
-                $("#userMessage-info").html("Required.");
+                 $("#userMessage-info").html("Required.");
                 $("#content").css('border', '#e66262 1px solid');
                 valid = false;
             }
-            return valid;
+			
+			 var phoneNo = document.getElementById('mobile');
+
+  if (phoneNo.value == "" || phoneNo.value == null) {
+    $("#mobile-info").html("Please enter your Mobile No.");
+    return false;
+  }
+  if (phoneNo.value.length < 10 || phoneNo.value.length > 10) {
+	  
+	 
+    $("#mobile-info").html("Mobile No. is not valid, Please Enter 10 Digit Mobile No.");
+    return false;
+  }
+
+ 
+			
+			
+			
+			return valid;
+		 return true;	
+            
         }
+		function isNumber(evt) {
+  evt = (evt) ? evt : window.event;
+  var charCode = (evt.which) ? evt.which : evt.keyCode;
+  if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+	  $("#mobile-info").html("Please enter only Numbers..");
+
+    return false;
+  }
+
+  return true;
+}
+
 </script>
 </body>
 </html>

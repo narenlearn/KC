@@ -71,13 +71,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <!-- menu area -->
 <ul class="navbar-nav" id="nav" style=" z-index:9999;">
 <li><a href="index.html">Home</a></li>
-<li class="current"><a href="comprehensive-eye-exam.html">Comprehensive Eye Exam</a></li>
+<li><a href="comprehensive-eye-exam.html">Comprehensive Eye Exam</a></li>
 <li><a href="keratoconus-scleral-lens.html">Keratoconus - Scleral Lens</a></li>
 <li><a href="myopia-control-and-management.html">Myopia Control and Management</a></li>
 <li><a href="low-vision-enhancement.html">Low Vision Enhancement and Vision Therapy</a></li>
 <li><a href="spectacles-dispensing-and-contact-lenses-fitting.html">Spectacles Dispensing and Contact lenses fitting</a></li>
 <li><a href="blog.html">Blog</a></li>
-  <li><a href="contact.html">Contact us</a></li>                                      
+  <li class="current"><a href="contact.html">Contact us</a></li>                                      
                                        
                                     
                               
@@ -145,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="eyesberg-point" data-eyesberg-sidenav-dot=""><span style="right:-3.5px;">Home</span>
 <a href="index.html" class="meas"><div class="eyesberg-point-dot"><span></span></div></a></div>
 
-<div class="eyesberg-point in-view" data-eyesberg-sidenav-dot="eyesberg-card-0"><span style="right:-3.5px;">Comprehensive Eye Exam</span>
+<div class="eyesberg-point" data-eyesberg-sidenav-dot="eyesberg-card-0"><span style="right:-3.5px;">Comprehensive Eye Exam</span>
 <a href="comprehensive-eye-exam.html" class="meas"><div class="eyesberg-point-dot"><span></span></div></a></div>
 <div class="eyesberg-point" data-eyesberg-sidenav-dot=""><span style="right:-3.5px;">Keratoconus - Scleral Lens</span>
 <a href="keratoconus-scleral-lens.html" class="meas"><div class="eyesberg-point-dot"><span></span></div></a></div>
@@ -158,7 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="eyesberg-point" data-eyesberg-sidenav-dot="">
 <span style="min-width: 120px; right:-3.5px;">Blog</span>
 <a href="blog.html" class="meas"><div class="eyesberg-point-dot"><span></span></div></a></div>
-<div class="eyesberg-point" data-eyesberg-sidenav-dot="">
+<div class="eyesberg-point in-view" data-eyesberg-sidenav-dot="">
 <span style=" right:-3.5px;">Contact us</span>
 <a href="contact.html" class="meas"><div class="eyesberg-point-dot"><span></span></div></a></div>
 
@@ -208,137 +208,199 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="bgw">
  
-   <div class="container">
-                <div class="row">
+  <div class="container">
 
-                    <!-- start blog -->
-                    <div class="col-md-6 mb-1-9">
-                        <article class="card-style1 card border-0 h-100">
-                            <div class="card-img">
-                                <img src="images/blog/blog-1.jpg" alt="">
-                            </div>
-                            <div class="card-body card-body">
-                                <div class="tag alt-font font-weight-300">
-                                    <a href="blog-minimal-1.html">Laboratory | <span class="d-inline-block">02 May 2020</span></a>
-                                </div>
-                                <h3 class="h6 mb-3"><a href="blog-post.html">Medicine for healthy life</a></h3>
-                                <p class="display-30">Dolorem ipsum quia dolor consectetur, amet adipisci velit, sed quia non eius numquam modi tempora.</p>
-                                <a href="blog-post.html" class="read-more">read more</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- end blog -->
-
-                    <!-- start blog -->
-                    <div class="col-md-6 mb-1-9">
-                        <article class="card-style1 card border-0 h-100">
-                            <div class="card-img">
-                                <img src="images/blog/blog-2.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <div class="tag alt-font font-weight-300">
-                                    <a href="blog-minimal-1.html">Positive | <span class="d-inline-block">11 April 2020</span></a>
-                                </div>
-                                <h3 class="h6 mb-3"><a href="blog-post.html">Always think be positive</a></h3>
-                                <p class="display-30">Consectetur dolorem ipsum quia dolor sit amet, adipisci velit, sed quia non numquam eius modi tempora.</p>
-                                <a href="blog-post.html" class="read-more">read more</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- end blog -->
-
-                    <!-- start blog -->
-                    <div class="col-md-6 mb-1-9">
-                        <article class="card-style1 card border-0 h-100">
-                            <div class="card-img">
-                                <img src="images/blog/blog-3.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <div class="tag alt-font font-weight-300">
-                                    <a href="blog-minimal-1.html">Medicine | <span class="d-inline-block">04 March 2020</span></a>
-                                </div>
-                                <h3 class="h6 mb-3"><a href="blog-post.html">Laboratory work with in hospital</a></h3>
-                                <p class="display-30">Numquam dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.</p>
-                                <a href="blog-post.html" class="read-more">read more</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- end blog -->
-
-                    <!-- start blog -->
-                    <div class="col-md-6 mb-1-9">
-                        <article class="card-style1 card border-0 h-100">
-                            <div class="card-img">
-                                <img src="images/blog/blog-4.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <div class="tag alt-font font-weight-300">
-                                    <a href="blog-minimal-1.html">Medicine | <span class="d-inline-block">04 March 2020</span></a>
-                                </div>
-                                <h3 class="h6 mb-3"><a href="blog-post.html">Colorful pills and capsules</a></h3>
-                                <p class="display-30">Numquam dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.</p>
-                                <a href="blog-post.html" class="read-more">read more</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- end blog -->
-
-                    <!-- start blog -->
-                    <div class="col-md-6 mb-1-9 mb-md-0">
-                        <article class="card-style1 card border-0 h-100">
-                            <div class="card-img">
-                                <img src="images/blog/blog-5.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <div class="tag alt-font font-weight-300">
-                                    <a href="blog-minimal-1.html">Medicine | <span class="d-inline-block">04 March 2020</span></a>
-                                </div>
-                                <h3 class="h6 mb-3"><a href="blog-post.html">doctor listening to patient</a></h3>
-                                <p class="display-30">Consectetur dolorem ipsum quia dolor sit amet, adipisci velit, sed quia non numquam eius modi tempora.</p>
-                                <a href="blog-post.html" class="read-more">read more</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- end blog -->
-
-                    <!-- start blog -->
-                    <div class="col-md-6 mb-1-9">
-                        <article class="card-style1 card border-0 h-100">
-                            <div class="card-img">
-                                <img src="images/blog/blog-6.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <div class="tag alt-font font-weight-300">
-                                    <a href="blog-minimal-1.html">Medicine | <span class="d-inline-block">04 March 2020</span></a>
-                                </div>
-                                <h3 class="h6 mb-3"><a href="blog-post.html">Always think be positive</a></h3>
-                                <p class="display-30">Dolorem ipsum quia dolor consectetur, amet adipisci velit, sed quia non eius numquam modi tempora.</p>
-                                <a href="blog-post.html" class="read-more">read more</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- end blog -->
-
+                <div class="mb-5 text-center">
+                    <h2 class="text-primary mb-3">Get in Touch</h2>
+                    <p class="mx-auto w-xl-50">We are available 24/7 by e-mail and phone. You can also ask a question about our services through our contact form that we regularly provide.</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <!-- start pager  -->
-                    <div class="text-center mt-5">
-                        <div class="custom-pagination text-small text-uppercase text-dark">
-                            <ul>
-                                <li><a href="#!"><i class="fas fa-long-arrow-alt-left mr-1 d-none4 d-sm-inline-block"></i> Prev</a></li>
-                                <li class="active"><a href="#!">1</a></li>
-                                <li><a href="#!">2</a></li>
-                                <li><a href="#!">3</a></li>
-                                <li><a href="#!">Next <i class="fas fa-long-arrow-alt-right ml-1 d-none4 d-sm-inline-block"></i></a></li>
-                            </ul>
+
+                <div class="row box-shadow g-0 rounded mb-6">
+                    <div class="col-lg-4 mb-1-9 mb-md-0 d-none d-lg-block">
+					
+					
+                        <div class="pr-lg-4 bg-img cover-background rounded-left h-100" style="margin-left: -0.7em;" ><img src="images/blog/contact-bg.jpg" alt="" />
                         </div>
                     </div>
-                    <!-- end pager -->
+                    <div class="col-lg-8">
+                        <div class="p-4 p-sm-5">
+                         
+							
+							<form class="quform" name="frmContact" id="frmContact" method="post"
+            action="send-contact-mail.php" enctype="multipart/form-data"
+            onsubmit="return validateContactForm()">
+
+                                <div class="quform-elements">
+
+                                    <div class="row">
+
+                                        <!-- Begin Text input element -->
+             <div class="col-md-12">
+                                            <div class="quform-element form-group">
+                                                <label for="name">Your Name <span class="quform-required">*</span><span
+                    id="userName-info" class="info"></span></label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" type="text" name="userName" placeholder="Your name here" id="userName" />
+													
+													
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group">
+                                                <label for="email">Your Email <span class="quform-required">*</span><span id="userEmail-info"
+                    class="info"></span></label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" type="text" name="userEmail" id="userEmail" placeholder="Your email here" />
+													
+													
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group">
+                                                <label for="subject">Your Subject <span class="quform-required">*</span><span id="subject-info"
+                    class="info"></span></label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" type="text" name="subject" id="subject" placeholder="Your subject here" />
+													
+											
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Text input element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group">
+                                                <label for="phone">Mobile Number <span class="quform-required">*</span><span id="mobile-info"
+                    class="info"></span></label>
+                                                <div class="quform-input">
+                                                    <input class="form-control" type="text" name="mobile" id="mobile" placeholder="Your phone here" maxlength="10" id="mobile" onkeypress="return isNumber(event)" />
+													
+													
+													
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- End Text input element -->
+
+                                        <!-- Begin Textarea element -->
+                                        <div class="col-md-12">
+                                            <div class="quform-element form-group">
+                                                <label for="message">Message <span class="quform-required">*</span><span id="userMessage-info"
+                    class="info"></span></label>
+                                                <div class="quform-input">
+                                                    <textarea class="form-control" name="content" id="content" rows="3" placeholder="Tell us a few words"></textarea>
+													
+													
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Textarea element -->
+
+                                        <!-- Begin Captcha element 
+                                        <div class="col-md-12">
+                                            <div class="quform-element">
+                                                <div class="form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="quform-captcha">
+                                                        <div class="quform-captcha-inner">
+                                                            <img src="quform/images/captcha/courier-new-light.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                        <!-- End Captcha element -->
+
+                                        <!-- Begin Submit button -->
+                                        <div class="col-md-12">
+                                            <div class="quform-submit-inner">
+                                                <button class="butn theme butn-md" type="submit" name="send" value="submit" onclick="$('form').submit();"><span>Send Message</span></button>
+                                            </div>
+                                            
+											
+											 <div id="statusMessage"> 
+                        <?php
+                        if (! empty($message)) {
+                            ?>
+                            <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+                        <?php
+                        }
+                        ?>
+                    </div>
+											
+											
+								
+
+                			
+                                        </div>
+                                        <!-- End Submit button -->
+
+                                    </div>
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- start contact info section -->
+                <div class="row">
+                    <div class="col-lg-4 mb-1-9 mb-lg-0">
+                        <div class="bg-light border border-width-5 text-center py-2-0 px-3">
+                            <div class="mb-3">
+                                <i class="fas fa-map-marker-alt text-primary display-18"></i>
+                            </div>
+                            <h3 class="text-dark text-uppercase font-weight-600 h6 mb-2">Visit Our Office</h3>
+                            <p class="mx-auto mb-0">74 Guild Street 542B,
+                                <br />Great North Town MT.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-1-9 mb-lg-0">
+                        <div class="bg-light border border-width-5 text-center py-2-0 px-3">
+                            <div class="mb-3">
+                                <i class="fas fa-comments text-primary display-18"></i>
+                            </div>
+                            <h3 class="text-dark text-uppercase font-weight-600 h6 mb-2">Let's Talk</h3>
+                            <p class="mx-auto mb-0">Phone: (+44) 123 456 789
+                                <br>Fax: 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="bg-light border border-width-5 text-center py-2-0 px-3">
+                            <div class="mb-3">
+                                <i class="fas fa-envelope text-primary display-18"></i>
+                            </div>
+                            <h3 class="text-dark text-uppercase font-weight-600 h6 mb-2">E-mail Us</h3>
+                            <p class="mx-auto mb-0"><a href="#!">info@yourdomain.com</a>
+                                <br><a href="#!">hr@yourdomain.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end contact info section -->
+
             </div>
- 
+        </section>
+		
+		
+		 <iframe class="map" src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
+  
  
  
  
@@ -394,4 +456,79 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </ul></ul>
 <div class="w-full px-15 md:px-0 my-20 py-5" style="text-align:left;">
 <span class="font-montserrat text-13 font-regular text-navy-lighter">&copy; 2024 Design &amp; Developed by <a href="http://www.aisurge.in" target="_blank" class="lw">Ai Surge</a> </span></div></div></footer>
+
+<script type="text/javascript">
+        function validateContactForm() {
+            var valid = true;
+
+            $(".info").html("");
+            $(".input-field").css('border', '#e0dfdf 1px solid');
+            var userName = $("#userName").val();
+            var userEmail = $("#userEmail").val();
+            var subject = $("#subject").val();
+            var content = $("#content").val();
+            
+            if (userName == "") {
+                $("#userName-info").html("Required.");
+                $("#userName").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (userEmail == "") {
+			
+                $("#userEmail-info").html("Required.");
+                $("#userEmail").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
+            {
+                $("#userEmail-info").html("Invalid Email Address.");
+                $("#userEmail").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+
+            if (subject == "") {
+                $("#subject-info").html("Required.");
+                $("#subject").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (content == "") {
+                 $("#userMessage-info").html("Required.");
+                $("#content").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+			
+			 var phoneNo = document.getElementById('mobile');
+
+  if (phoneNo.value == "" || phoneNo.value == null) {
+    $("#mobile-info").html("Please enter your Mobile No.");
+    return false;
+  }
+  if (phoneNo.value.length < 10 || phoneNo.value.length > 10) {
+	  
+	 
+    $("#mobile-info").html("Mobile No. is not valid, Please Enter 10 Digit Mobile No.");
+    return false;
+  }
+
+ 
+			
+			
+			
+			return valid;
+		 return true;	
+            
+        }
+		function isNumber(evt) {
+  evt = (evt) ? evt : window.event;
+  var charCode = (evt.which) ? evt.which : evt.keyCode;
+  if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+	  $("#mobile-info").html("Please enter only Numbers..");
+
+    return false;
+  }
+
+  return true;
+}
+
+</script>
 </body></html>
